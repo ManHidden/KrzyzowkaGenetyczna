@@ -76,6 +76,7 @@ public class Rodzice {
             }
         }
                             //**********************************//
+        //Próba stworzenia tablicy, która będzie miała posegregowane elementy według alfabetu (AABB, AaBB, aaBb itd.)
         String[] krzyzowkaAlfabetycznie = new String[2];
         krzyzowkaAlfabetycznie [0] = krzyzowkaGenetyczna[1][1];
         krzyzowkaAlfabetycznie [1] = krzyzowkaGenetyczna[1][2];
@@ -84,6 +85,7 @@ public class Rodzice {
 
         Arrays.sort(krzyzowkaAlfabetycznie);
         System.out.println("Po sortowaniu: " + krzyzowkaAlfabetycznie[0] + " i " + krzyzowkaAlfabetycznie[1]);
+        //Chuja dało
                             //**********************************//
     }
 }

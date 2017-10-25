@@ -9,6 +9,6 @@ public class Main {
         Rodzice rodzice = new Rodzice("AaBb", "AaBb");
 
         System.out.println(rodzice);
-        System.out.println("Git");
+        System.out.println("Chuj");
     }
 }
